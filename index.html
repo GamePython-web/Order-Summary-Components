@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    .mainbox{width: 330px; height: 460px; border: solid rgba(128, 128, 128, 0.815) 1px; position: relative;bottom: 375px; border-radius: 10px; background-color: white;}
+    .hero{width:100%; height:150px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+    .plan{width: 280px; height: 60px; background-color: #f5f5f5; border-radius: 10px;}    
+    .dollar{position:relative;bottom:65px;left: -35px; color:grey;font-size: 14px; }
+    .change{position: relative; bottom: 110px;left:90px; color:#6588e7f8 ; font-size: 12px; text-decoration: none; font-weight: bold;}
+    .proceed{background-color: #6b6be4  ; border: white solid 0px;width: 220px; height:35px; border-radius: 10px; position: relative; top: 20px; color:white;font-size: 12px;box-shadow: 0 15px 7px rgb(206, 206, 206) ;} 
+    .cancel{position: relative; top: 35px;color: rgb(83, 83, 83); font-weight: 700;font-size: 12px;text-decoration: none;}
+  </style>
+</head>
+<body style="background-color:#a2d0f3ea ;overflow:hidden; font-family:Red Hat Display;">
+  <img src="images/pattern-background-desktop.svg" style="width: 100%; height: 400px; position:relative; top: -20px; left: -10px">  
+  <center><div class="mainbox">
+    <img src="images/illustration-hero.svg" class= "hero">
+    <p style=" font-weight: bolder; color: #0E0959; font-size:1 18px;">Order Summary</p>
+    <p style="text-align: center; font-size: 14px; width: 215px; color:grey;"> Order Summary You can now listen 
+        to millions of songs, audiobooks, 
+        and podcasts on any device 
+        anywhere you like!</p>
+    <div class ="plan">      
+      <img src="images/icon-music.svg" style="position: relative; right:100px; top:10px;width:40px; height: 40px;">
+      <p style="position:relative;bottom:50px;right:45px;font-weight: bold; color:#0E0959;">Annual</p>
+      <p class="dollar">$59.99/year</p>
+      <a class="change" href="">Change</a>
+    </div>
+    
+    <button class="proceed"><b>Proceed to Payment</b></button>
+    <div><a href = ""class = "cancel">Cancel Order</a></div>
+  </div></center>
+</body>
+</html>
